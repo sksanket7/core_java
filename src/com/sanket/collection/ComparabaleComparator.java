@@ -12,6 +12,7 @@ public class ComparabaleComparator implements Comparator<Integer> {
         treeSet.add(2);
         treeSet.add(9);
         System.out.println(treeSet.toString());
+        System.out.println("Git Test");
     }
 
     @Override
