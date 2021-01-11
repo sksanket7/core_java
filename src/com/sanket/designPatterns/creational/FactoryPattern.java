@@ -1,4 +1,4 @@
-package com.sanket.designPatterns;
+package com.sanket.designPatterns.creational;
 
 interface IamInterface {
     public void methodOne();
