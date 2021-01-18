@@ -12,7 +12,7 @@ public class ArrayMaxCount {
         //System.out.println(numArray[1]);
         List<Integer> list = Arrays.asList(-9, -18, 0, 25, 4);
         int count = 0;
-        Integer var = list.stream().max(Integer::compare).
+        Integer var = list.stream().max(Integer::compare).get();
         System.out.println(var);
     }
 }
